@@ -1,0 +1,187 @@
+  /*
+
+  ----D
+  ----A
+  ----R
+  ----K
+  
+  ----M
+  ----O
+  ----D
+  ----E
+  
+  */
+  
+  
+  /*FONTS*/
+  @font-face {
+    font-family: Lato;
+    src: url(../fonts/Lato-Regular.ttf);
+ }
+
+ @font-face {
+   font-family: Lato-Bold;
+   src: url(../fonts/Lato-Bold.ttf);
+ }
+
+
+/*Some classes and ids*/
+
+
+body {
+    margin: 0;
+    font-size: 22px;
+    background-color: rgb(58, 58, 58);
+  }
+  
+h3 {
+    text-align: center;
+    font-size: 50px;
+    color:rgb(213, 228, 255);
+  }
+  
+h2 {
+    text-align: center;
+    font-size: 40px;
+  }
+
+h1 {
+  text-align: center;
+  font-size: 30px;
+  color: rgb(204, 204, 204);
+}
+p {
+    text-align: center;
+}
+  
+  
+  .header {
+    background-color: #f1f1f1;
+    padding: 30px;
+    text-align: center;
+  }
+
+/*NAVIGATION BAR*/
+  
+  
+
+
+  /*OTHERS*/
+  
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  
+  .center-text {
+    text-align: center;
+  }
+  
+  .img {
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  
+  .img:hover {
+    opacity: 0.6;
+  }
+  
+  .centerimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    transition: 0.4s;
+  }
+  
+  .centerimg:hover {
+    opacity: 0.6;
+  }
+  
+  /*Hyperlinks*/
+    a:link {
+      color: rgb(117, 255, 117);
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:visited {
+      color: pink;
+      background-color: transparent;
+      text-decoration: none;
+    }
+    
+    a:hover {
+      color: rgb(179, 255, 144);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+    
+    a:active {
+      color: rgb(255, 255, 163);
+      background-color: transparent;
+      text-decoration: underline;
+    }
+
+/*IMAGE TEXT CLASSES*/
+/* Container holding the image and the text */
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Bottom left text */
+.bottom-left {
+  position: absolute;
+  bottom: 8px;
+  left: 16px;
+}
+
+/* Top left text */
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+  position: absolute;
+  bottom: 8px;
+  right: 16px;
+}
+
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+  /*
+
+  ----l
+  ----I
+  ----G
+  ----H
+  ----T
+  
+  ----M
+  ----O
+  ----D
+  ----E
+  
+  SOON UWU
+  */
+  
