@@ -1,0 +1,32 @@
+-List of stylesheet links:
+
+https://thebestph.github.io/styles/more.css
+
+https://thebestph.github.io/styles/navigationbar.css
+
+https://thebestph.github.io/styles/style.css
+
+-Script links:
+
+https://thebestph.github.io/scripts/more.js
+
+https://thebestph.github.io/scripts/navbar.js
+
+-Page links:
+
+https://thebestph.github.io/p/about
+
+https://thebestph.github.io/p/youtube
+
+https://thebestph.github.io/p/roblox
+
+https://thebestph.github.io/p/discord
+
+https://thebestph.github.io/p/tbphstudios
+
+-More page links:
+
+https://thebestph.github.io/p/survey
+
+https://thebestph.github.io/p/webinfo
+
