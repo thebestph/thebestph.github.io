@@ -55,75 +55,70 @@ p {
 }
   
   
-  .header {
-    background-color: #f1f1f1;
-    padding: 30px;
-    text-align: center;
-  }
-
-/*NAVIGATION BAR*/
-  
-  
-
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
 
   /*OTHERS*/
   
-  .center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-  }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
   
-  .center-text {
-    text-align: center;
-  }
+.center-text {
+  text-align: center;
+}
   
-  .img {
-    cursor: pointer;
-    transition: 0.4s;
-  }
+.img {
+  cursor: pointer;
+  transition: 0.4s;
+}
   
-  .img:hover {
-    opacity: 0.6;
-  }
+.img:hover {
+  opacity: 0.6;
+}
   
-  .centerimg {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    transition: 0.4s;
-  }
+.centerimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  transition: 0.4s;
+}
   
-  .centerimg:hover {
-    opacity: 0.6;
-  }
+.centerimg:hover {
+  opacity: 0.6;
+}
   
-  /*Hyperlinks*/
-    a:link {
-      color: rgb(117, 255, 117);
-      background-color: transparent;
-      text-decoration: none;
-    }
+/*Hyperlinks*/
+a:link {
+  color: rgb(117, 255, 117);
+  background-color: transparent;
+  text-decoration: none;
+}
     
-    a:visited {
-      color: pink;
-      background-color: transparent;
-      text-decoration: none;
-    }
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
     
-    a:hover {
-      color: rgb(179, 255, 144);
-      background-color: transparent;
-      text-decoration: underline;
-    }
+a:hover {
+  color: rgb(179, 255, 144);
+  background-color: transparent;
+  text-decoration: underline;
+}
     
-    a:active {
-      color: rgb(255, 255, 163);
-      background-color: transparent;
-      text-decoration: underline;
-    }
+a:active {
+  color: rgb(255, 255, 163);
+  background-color: transparent;
+  text-decoration: underline;
+}
 
 /*IMAGE TEXT CLASSES*/
 /* Container holding the image and the text */
