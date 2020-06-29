@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
 <!--FIXED SCALE FOR OTHER DEVICES-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -8,26 +10,29 @@
 <title>TheBestPH - YT</title>
 
 <!--STYLESHEET-->
-<link rel="stylesheet" type="text/css" href="styles/style.css">
-<link rel="stylesheet" type="text/css" href="styles/more.css">
-<link rel="stylesheet" type="text/css" href="styles/navigatonbar.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/style.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/more.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/navigationbar.css">
 
 <!--PAGE ICON-->
 <link rel="icon" 
       type="image/jpg" 
-      href="images/thebestphpp.jpg">
+      href="https://thebestph.github.io/storage/images/thebestphpp.jpg">
+
 </head>
 <body>
 
 
 <!--Navigation Bar-->
+
+<!--Put class="active"-->
 <div id="navbar">
-  <a href="index.html">Home</a>
-  <a href="about.htm">About</a>
-  <a class="active" href="yt.htm">Youtube</a>
-  <a href="roblox.htm">Roblox</a>
-  <a href="discord.htm">Discord Server</a>
-  <a href="tbphstudios.htm">TBPH Studios</a>
+  <a href="https://thebestph.github.io">Home</a>
+  <a href="https://thebestph.github.io/p/about">About</a>
+  <a class="active" href="https://thebestph.github.io/p/youtube">Youtube</a>
+  <a href="https://thebestph.github.io/p/roblox">Roblox</a>
+  <a href="https://thebestph.github.io/p/discord">Discord Server</a>
+  <a href="https://thebestph.github.io/p/tbphstudios">TBPH Studios</a>
   <a onclick="openNav()">More</a>
 </div>
 
@@ -35,12 +40,21 @@
 <div id="myNav" class="overlay">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <div class="overlay-content">
-    <a href="#">About</a>
-    <a href="#">Services</a>
-    <a href="#">Clients</a>
-    <a href="#">Contact</a>
+    <p class="overlay-paragraphs">Explore</p>
+    <a href="https://thebestph.github.io">Home</a>
+    <a href="https://thebestph.github.io/p/about">About</a>
+    <a href="https://thebestph.github.io/p/youtube">Youtube</a>
+    <a href="https://thebestph.github.io/p/roblox">Roblox</a>
+    <a href="https://thebestph.github.io/p/discord">Discord Server</a>
+    <a href="https://thebestph.github.io/p/tbphstudios">TBPH Studios</a>
+    <br><br><br>
+    <p class=overlay-paragraphs>More</p>
+    <a href="https://thebestph.github.io/p/survey">Survey</a>
+    <a href="https://thebestph.github.io/p/webinfo">Website Info</a>
+    <a href="https://github.com/thebestph/thebestph.github.io">Website Source Code</a>
   </div>
 </div>
+
 
 <!--CONTENT-->
 
@@ -112,26 +126,12 @@ I also make Roblox Studio tutorials</p>
   <iframe width="840" height="472.5" src="https://www.youtube.com/embed/videoseries?list=PLP6hkUzKYEMTwNDUCZAh2jcFGMCMjocBD" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 </div>
 
-
-
-
 </div>
 
-<!--STICKY NAVIGATION BAR SCRIPT-->
-<script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
+<!--SCRIPTS-->
+<script src="https://thebestph.github.io/scripts/navbar.js"></script> <!--STICKY NAVBAR SCRIPT-->
+
+<script src="https://thebestph.github.io/scripts/more.js"></script> <!--SCRIPT FOR MORE BUTTON-->
 
 </body>
 </html>

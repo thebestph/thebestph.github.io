@@ -1,43 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
+
+
 <!--FIXED SCALE FOR OTHER DEVICES-->
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
 <!--PAGE TITLE-->
-<title>TheBestPH - Discord Server</title>
+<title>TheBestPH - Name</title>
 
 <!--STYLESHEET-->
-<link rel="stylesheet" type="text/css" href="../styles/style.css">
-<link rel="stylesheet" type="text/css" href="../styles/more.css">
-<link rel="stylesheet" type="text/css" href="../styles/navigatonbar.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/style.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/more.css">
+<link rel="stylesheet" type="text/css" href="https://thebestph.github.io/styles/navigationbar.css">
 
 <!--PAGE ICON-->
 <link rel="icon" 
       type="image/jpg" 
       href="https://thebestph.github.io/storage/images/thebestphpp.jpg">
+
 </head>
 <body>
 
 
 <!--Navigation Bar-->
 <div id="navbar">
-    <a href="home.htm">Home</a>
-    <a href="about.htm">About</a>
-    <a href="yt.htm">Youtube</a>
-    <a href="roblox.htm">Roblox</a>
-    <a class="active" href="discord.htm">Discord Server</a>
-    <a href="tbphstudios.htm">TBPH Studios</a>
-    <div class="dropdown">
-      <button class="dropbtn">More</button>
-      <div class="dropdown-content">
-        <a href="#">Coming Soon</a><br><br>
-        <a href="#">Coming Soon</a><br><br>
-        <a href="#">Coming Soon</a>
-      </div>
+  <a href="https://thebestph.github.io">Home</a>
+  <a href="https://thebestph.github.io/p/about">About</a>
+  <a href="https://thebestph.github.io/p/youtube">Youtube</a>
+  <a href="https://thebestph.github.io/p/roblox">Roblox</a>
+  <a class="active" href="https://thebestph.github.io/p/discord">Discord Server</a>
+  <a href="https://thebestph.github.io/p/tbphstudios">TBPH Studios</a>
+  <a onclick="openNav()">More</a>
+</div>
+
+<!--MORE CONTENT-->
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <p class="overlay-paragraphs">Explore</p>
+    <a href="https://thebestph.github.io">Home</a>
+    <a href="https://thebestph.github.io/p/about">About</a>
+    <a href="https://thebestph.github.io/p/youtube">Youtube</a>
+    <a href="https://thebestph.github.io/p/roblox">Roblox</a>
+    <a href="https://thebestph.github.io/p/discord">Discord Server</a>
+    <a href="https://thebestph.github.io/p/tbphstudios">TBPH Studios</a>
+    <br><br><br>
+    <p class=overlay-paragraphs>More</p>
+    <a href="https://thebestph.github.io/p/survey">Survey</a>
+    <a href="https://thebestph.github.io/p/webinfo">Website Info</a>
+    <a href="https://github.com/thebestph/thebestph.github.io">Website Source Code</a>
   </div>
-  
-  </div>
+</div>
 
 <!--CONTENT-->
 <div class="content">
@@ -61,21 +75,10 @@
   </div>
 </div>
 
-<!--STICKY NAVIGATION BAR SCRIPT-->
-<script>
-  window.onscroll = function() {myFunction()};
-  
-  var navbar = document.getElementById("navbar");
-  var sticky = navbar.offsetTop;
-  
-  function myFunction() {
-    if (window.pageYOffset >= sticky) {
-      navbar.classList.add("sticky")
-    } else {
-      navbar.classList.remove("sticky");
-    }
-  }
-  </script>
+<!--SCRIPTS-->
+<script src="https://thebestph.github.io/scripts/navbar.js"></script> <!--STICKY NAVBAR SCRIPT-->
+
+<script src="https://thebestph.github.io/scripts/more.js"></script> <!--SCRIPT FOR MORE BUTTON-->
 
 </body>
 </html>
