@@ -5,7 +5,7 @@ var website = {
     creator: "TheBestPH",
     created: "June 10, 2020", 
     hosted: "June 27, 2020",
-    version: "0.0.38" // Change this
+    version: "0.0.39" // Change this
 }
 
 // SCRIPTS
