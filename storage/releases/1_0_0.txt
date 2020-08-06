@@ -1,0 +1,4 @@
+1.0.0 release info and updates
+
+-moved some files and folders
+-improved website layout
