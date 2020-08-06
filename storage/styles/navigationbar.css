@@ -10,11 +10,13 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .subnav {
   float: left;
   overflow: hidden;
+  transition: 0.3s;
 }
 
 .subnav .subnavbtn {
@@ -26,25 +28,28 @@
   background-color: inherit;
   font-family: inherit;
   margin: 0;
+  transition: 0.3s;
 }
 
 .navbar a:hover, .subnav:hover .subnavbtn {
-  background-color: red;
+  background-color: rgb(175, 222, 228);
 }
 
 .subnav-content {
   display: none;
   position: absolute;
   left: 0;
-  background-color: red;
+  background-color: rgb(175, 222, 228);
   width: 100%;
   z-index: 1;
+  transition: 0.3s;
 }
 
 .subnav-content a {
   float: left;
   color: white;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .subnav-content a:hover {

@@ -32,6 +32,7 @@ h3 {
 h2 {
     text-align: center;
     font-size: 40px;
+    color: white;
   }
 
 h1 {
@@ -87,27 +88,27 @@ p {
   
 /*Hyperlinks*/
 a:link {
-  color: rgb(117, 255, 117);
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
     
 a:visited {
-  color: pink;
+  color: rgb(255, 255, 255);
   background-color: transparent;
   text-decoration: none;
 }
     
 a:hover {
-  color: rgb(179, 255, 144);
+  color: rgb(255, 255, 255);
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
     
 a:active {
-  color: rgb(255, 255, 163);
+  color: rgb(255, 255, 255);
   background-color: transparent;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /*IMAGE TEXT CLASSES*/
