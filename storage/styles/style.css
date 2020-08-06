@@ -12,18 +12,6 @@
   
   */
   
-  
-  /*FONTS*/
-  @font-face {
-    font-family: Lato;
-    src: url(https://thebestph.github.io/storage/fonts/Lato-Regular.ttf);
- }
-
- @font-face {
-   font-family: Lato-Bold;
-   src: url(https://thebestph.github.io/storage/fonts/Lato-Bold.ttf);
- }
-
 
 /*Some classes and ids*/
 
@@ -31,6 +19,7 @@
 body {
     margin: 0;
     font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(58, 58, 58);
   }
   
